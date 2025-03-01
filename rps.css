@@ -1,0 +1,153 @@
+
+
+
+body {
+    background-color: rgb(72, 72, 72);
+}
+
+
+.main-container{
+    border: none;
+    border-radius: 50px;
+    padding: 30px 20px;
+    margin: auto;
+    width: 500px;
+    text-align: center;
+    background-color: teal;
+    color: white;
+    margin-top: 20px;
+}
+
+.game-btn {
+    
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    background-color: tomato;
+    cursor: pointer;
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-left: 20px;
+    box-shadow: 5px 5px 5px rgb(13, 3, 3);
+    transition: background-color 1.2s;
+    transition: padding 1.2s;
+    transition: font-size 1.2s;
+    transition: active 1.2s;
+   
+}
+
+
+.game-btn:hover {
+    background-color: black;
+    padding: 20px;
+    border: none;
+    font-size: 15px; 
+    border-radius: 15px;
+}
+
+.game-btn:active {
+    background-color: red;
+    color: green;
+}
+
+p {
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 1.1rem; 
+}
+
+
+
+.div-displays {
+   border-radius: 10px;
+    padding: 20px;
+    width: 520px;
+    margin: auto;
+    margin-top: 30px;
+    color: rgb(17, 6, 117);
+    font-weight: 800;
+    font-family: monospace;
+    background-color: lightgoldenrodyellow;
+}
+
+
+
+
+
+@media (max-width: 550px){
+    body {
+        background-color: rgba(17, 86, 39, 0.621);
+    }
+
+    .main-container{
+        border: none;
+        border-radius: 40px;
+        padding: 20px 10px;
+        margin-right: auto;
+        width: 80%;
+        text-align: center;
+        background-color: teal;
+        color: white;
+        margin-top: 15px;
+    }
+
+    .main-container p {
+        font-family: monospace;
+        font-weight: 700;
+        font-size: 18px; 
+    }
+
+    .game-btn {
+        border-radius: 8px;
+        padding: 8px;
+        margin: auto;
+        color: white;
+        background-color: tomato;
+        cursor: pointer;
+        font-family: monospace;
+        font-weight: 600;
+        font-size: 15px;
+        margin-left: 10px;
+        box-shadow: 5px 5px 5px rgb(13, 3, 3);
+        transition: background-color 1.2s;
+        transition: padding 1.5s;
+        transition: font-size 1.5s;
+        transition: active 1.5s;
+       
+    }
+
+    .game-btn:hover {
+        background-color: black;
+        padding: 15px;
+        border: none;
+        font-size: 13px; 
+        border-radius: 15px;
+    }
+    
+    .game-btn:active {
+        background-color: red;
+        color: green;
+    }
+
+
+    .div-displays {
+        border-radius: 10px;
+         padding: 12px;
+         width: 80%;
+         margin: auto;
+         margin-top: 30px;
+         color: rgb(232, 231, 237);
+         font-weight: 700;
+         font-family: monospace;
+         background-color: rgb(13, 83, 27);
+     }
+    
+}
+
+@media (max-width: 430px){
+    body {
+        background-color: blueviolet;
+    }
+}
