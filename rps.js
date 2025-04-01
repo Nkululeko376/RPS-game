@@ -1,10 +1,11 @@
 
 
 //Score save inside an object
-score = JSON.parse(localStorage.getItem('myScore'));
-
-
-
+let score = JSON.parse(localStorage.getItem('myScore')) || {
+    wins: 0,
+    losses: 0,
+    ties: 0
+};
 
 
 function select0Move(){
